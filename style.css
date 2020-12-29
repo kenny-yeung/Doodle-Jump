@@ -1,0 +1,46 @@
+
+.box-grid{
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    /* background-color: rgba(255, 0, 221, 0.685); */
+    background-image: url(assets/stage.png);
+    background-size: 400px 600px;
+    position: relative;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+}
+
+.jumper{
+    width: 50px;
+    height: 60px;
+    /* background-color: black; */
+    position: absolute;
+}
+
+.platform{
+    width: 65px;
+    height: 15px;
+    /* background-color: green; */
+    background-image: url(assets/rock2.png);
+    background-size: 65px 15px;
+    position:absolute;
+}
+
+button{
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 250px;
+}
+
+.endScreen{
+    margin-left: 10px;
+    margin-top:50px;
+    width: 400px;
+    height: 400px;
+}
