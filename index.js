@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded",() =>{
 
     function createJumper(){
         grid.appendChild(jumper);
-        jumper.src = "assets/doodle.png";
+        jumper.src = "./assets/doodle.png";
         jumper.classList.add('jumper');
         jumperLeftSpace = platforms[0].left;
         jumper.style.left = jumperLeftSpace + 'px';
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded",() =>{
         grid.innerHTML += "Score: \n";
         grid.innerHTML += score;
         var image = document.createElement('img');
-        image.src = "assets/doodle.png";
+        image.src = "./assets/doodle.png";
         image.classList.add("endScreen");
         grid.appendChild(image);
         clearInterval(upTimerId);
